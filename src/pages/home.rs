@@ -40,7 +40,7 @@ pub fn Home() -> impl IntoView {
                 </picture>
 
                 <h1>"Welcome to Leptos"</h1>
-                <h2>"This is goated, for reals!!"</h2>
+                <h2>"This is goated, for reals! AGAIUN !"</h2>
 
                 <div class="buttons">
                     <Button/>
