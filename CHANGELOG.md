@@ -8,6 +8,8 @@
 
 ### 📈 Enhancement
 
+- new piopeline [[#26](https://github.com/FrederikBRoth/cv-adventure/pull/26)]
+- new piopeline [[#26](https://github.com/FrederikBRoth/cv-adventure/pull/26)]
 - 🎉 Release 0.0.1 [[#24](https://github.com/FrederikBRoth/cv-adventure/pull/24)]
 
 ### 🐛 Bug Fixes
@@ -16,6 +18,7 @@
 
 ### Misc
 
+- 🎉 Release 0.1.0 [[#25](https://github.com/FrederikBRoth/cv-adventure/pull/25)]
 - 🎉 Release 0.0.1 [[#23](https://github.com/FrederikBRoth/cv-adventure/pull/23)]
 - Updated pipeline [[#22](https://github.com/FrederikBRoth/cv-adventure/pull/22)]
 - Updated pipeline [[#22](https://github.com/FrederikBRoth/cv-adventure/pull/22)]
