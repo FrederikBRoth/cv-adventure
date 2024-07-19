@@ -1,13 +1,15 @@
+when:
+  event: push
+  branch: ${CI_REPO_DEFAULT_BRANCH}
+
 steps:
-  - name: release-helper
-    image: woodpeckerci/plugin-ready-release-go
+  release-helper:
+    image: woodpeckerci/plugin-ready-release-go:1.1.2
+    pull: true
     settings:
       # release_branch: 'custom-release-branch' # default: CI_REPO_DEFAULT_BRANCH
       git_email: frederikbroth@gmail.com
       github_token:
         from_secret: GITHUB_SECRET
 
-when:
-  event: push
-  branch: ${CI_REPO_DEFAULT_BRANCH}
 
