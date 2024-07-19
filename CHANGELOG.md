@@ -12,6 +12,8 @@
 
 ### Misc
 
+- 🎉 Release 0.0.1 [[#20](https://github.com/FrederikBRoth/cv-adventure/pull/20)]
+- 🎉 Release 0.0.1 [[#20](https://github.com/FrederikBRoth/cv-adventure/pull/20)]
 - Dev [[#19](https://github.com/FrederikBRoth/cv-adventure/pull/19)]
 - Dev [[#19](https://github.com/FrederikBRoth/cv-adventure/pull/19)]
 - Dev [[#19](https://github.com/FrederikBRoth/cv-adventure/pull/19)]
