@@ -6,8 +6,13 @@
 
 @FrederikBRoth
 
+### 🐛 Bug Fixes
+
+- again [[#10](https://github.com/FrederikBRoth/cv-adventure/pull/10)]
+
 ### Misc
 
+- again [[#9](https://github.com/FrederikBRoth/cv-adventure/pull/9)]
 - 🎉 Release 0.0.1 [[#6](https://github.com/FrederikBRoth/cv-adventure/pull/6)]
 - 🎉 Release 0.0.1 [[#6](https://github.com/FrederikBRoth/cv-adventure/pull/6)]
 - New stuff [[#7](https://github.com/FrederikBRoth/cv-adventure/pull/7)]
