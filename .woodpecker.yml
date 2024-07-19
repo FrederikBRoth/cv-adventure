@@ -1,5 +1,5 @@
 steps:
-  release-helper:
+  - name: release-helper
     image: woodpeckerci/plugin-ready-release-go
     settings:
       # release_branch: 'custom-release-branch' # default: CI_REPO_DEFAULT_BRANCH
