@@ -5,4 +5,4 @@ steps:
       # release_branch: 'custom-release-branch' # default: CI_REPO_DEFAULT_BRANCH
       git_email: frederikbroth@gmail.com
       github_token:
-        from_secret: GITHUB_TOKEN
+        from_secret: GITHUB_SECRET
