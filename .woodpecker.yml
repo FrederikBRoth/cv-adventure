@@ -6,3 +6,8 @@ steps:
       git_email: frederikbroth@gmail.com
       github_token:
         from_secret: GITHUB_SECRET
+
+when:
+  event: push
+  branch: ${CI_REPO_DEFAULT_BRANCH}
+
