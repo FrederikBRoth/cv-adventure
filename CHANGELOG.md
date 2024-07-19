@@ -1,31 +1,5 @@
 # Changelog
 
-## [0.1.1](https://github.com/FrederikBRoth/cv-adventure/releases/tag/v0.1.1) - 2024-07-19
-
-### ❤️ Thanks to all contributors! ❤️
-
-@FrederikBRoth
-
-### Misc
-
-- 🎉 Release 0.1.1 [[#17](https://github.com/FrederikBRoth/cv-adventure/pull/17)]
-- 🎉 Release 0.1.1 [[#17](https://github.com/FrederikBRoth/cv-adventure/pull/17)]
-- test [[#16](https://github.com/FrederikBRoth/cv-adventure/pull/16)]
-- test [[#16](https://github.com/FrederikBRoth/cv-adventure/pull/16)]
-
-## [0.0.2](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.0.2) - 2024-07-19
-
-### ❤️ Thanks to all contributors! ❤️
-
-@FrederikBRoth
-
-### Misc
-
-- 🎉 Release 0.0.2 [[#14](https://github.com/FrederikBRoth/cv-adventure/pull/14)]
-- 🎉 Release 0.0.2 [[#13](https://github.com/FrederikBRoth/cv-adventure/pull/13)]
-- 🎉 Release 0.0.2 [[#12](https://github.com/FrederikBRoth/cv-adventure/pull/12)]
-- 🎉 Release 0.0.1 [[#11](https://github.com/FrederikBRoth/cv-adventure/pull/11)]
-
 ## [0.0.1](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.0.1) - 2024-07-19
 
 ### ❤️ Thanks to all contributors! ❤️
@@ -38,6 +12,17 @@
 
 ### Misc
 
+- Dev [[#19](https://github.com/FrederikBRoth/cv-adventure/pull/19)]
+- Dev [[#19](https://github.com/FrederikBRoth/cv-adventure/pull/19)]
+- Dev [[#19](https://github.com/FrederikBRoth/cv-adventure/pull/19)]
+- 🎉 Release 0.1.1 [[#17](https://github.com/FrederikBRoth/cv-adventure/pull/17)]
+- 🎉 Release 0.1.1 [[#17](https://github.com/FrederikBRoth/cv-adventure/pull/17)]
+- test [[#16](https://github.com/FrederikBRoth/cv-adventure/pull/16)]
+- test [[#16](https://github.com/FrederikBRoth/cv-adventure/pull/16)]
+- 🎉 Release 0.0.2 [[#14](https://github.com/FrederikBRoth/cv-adventure/pull/14)]
+- 🎉 Release 0.0.2 [[#13](https://github.com/FrederikBRoth/cv-adventure/pull/13)]
+- 🎉 Release 0.0.2 [[#12](https://github.com/FrederikBRoth/cv-adventure/pull/12)]
+- 🎉 Release 0.0.1 [[#11](https://github.com/FrederikBRoth/cv-adventure/pull/11)]
 - 🎉 Release 0.0.1 [[#8](https://github.com/FrederikBRoth/cv-adventure/pull/8)]
 - 🎉 Release 0.0.1 [[#8](https://github.com/FrederikBRoth/cv-adventure/pull/8)]
 - again [[#9](https://github.com/FrederikBRoth/cv-adventure/pull/9)]
