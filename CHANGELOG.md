@@ -12,6 +12,7 @@
 
 ### Misc
 
+- 🎉 Release 0.0.1 [[#23](https://github.com/FrederikBRoth/cv-adventure/pull/23)]
 - Updated pipeline [[#22](https://github.com/FrederikBRoth/cv-adventure/pull/22)]
 - Updated pipeline [[#22](https://github.com/FrederikBRoth/cv-adventure/pull/22)]
 - 🎉 Release 0.0.1 [[#20](https://github.com/FrederikBRoth/cv-adventure/pull/20)]
