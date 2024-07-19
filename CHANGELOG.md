@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.1](https://github.com/FrederikBRoth/cv-adventure/releases/tag/v0.1.1) - 2024-07-19
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- test [[#16](https://github.com/FrederikBRoth/cv-adventure/pull/16)]
+- test [[#16](https://github.com/FrederikBRoth/cv-adventure/pull/16)]
+
 ## [0.0.2](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.0.2) - 2024-07-19
 
 ### ❤️ Thanks to all contributors! ❤️
