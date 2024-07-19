@@ -8,6 +8,7 @@
 
 ### Misc
 
+- 🎉 Release 0.0.1 [[#3](https://github.com/FrederikBRoth/cv-adventure/pull/3)]
 - 🎉 Release 0.0.1 [[#2](https://github.com/FrederikBRoth/cv-adventure/pull/2)]
 - Dev [[#1](https://github.com/FrederikBRoth/cv-adventure/pull/1)]
 - Dev [[#1](https://github.com/FrederikBRoth/cv-adventure/pull/1)]
