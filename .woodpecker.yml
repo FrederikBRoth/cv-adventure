@@ -15,7 +15,7 @@ steps:
   a-test-step:
     image: debian
     commands:
-      - cat file.txt
+      - ls -a
 
   # publish:
   #   image: woodpeckerci/plugin-release
