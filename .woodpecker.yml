@@ -12,4 +12,17 @@ steps:
       git_email: frederikbroth@gmail.com
       github_token:
         from_secret: GITHUB_SECRET
+  a-test-step:
+    image: debian
+    commands:
+      - echo $test
+  publish:
+    image: woodpeckerci/plugin-release
+    settings:
+      files:
+        # Could also be "hello-world*" to match both
+      api_key:
+        from_secret: GITHUB_SECRET
+    when:
+      - evaluate: 'RELEASED_CREATED == true'
 
