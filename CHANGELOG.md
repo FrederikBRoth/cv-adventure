@@ -8,6 +8,7 @@
 
 ### Misc
 
+- Dev [[#39](https://github.com/FrederikBRoth/cv-adventure/pull/39)]
 - Dev [[#38](https://github.com/FrederikBRoth/cv-adventure/pull/38)]
 - Dev [[#37](https://github.com/FrederikBRoth/cv-adventure/pull/37)]
 - Dev [[#35](https://github.com/FrederikBRoth/cv-adventure/pull/35)]
