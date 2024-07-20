@@ -1,13 +1,11 @@
 when:
   event: [tag]
-
   branch: ${CI_REPO_DEFAULT_BRANCH}
-
 steps:
   a-test-step:
     image: debian
     commands:
-      - touch test.txt
+      - echo "suck my fucking dick" > test.txt
   publish:
     image: woodpeckerci/plugin-release
     settings:
