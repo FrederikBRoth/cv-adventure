@@ -16,6 +16,7 @@ steps:
     image: debian
     commands:
       - cat file.txt
+
   # publish:
   #   image: woodpeckerci/plugin-release
   #   settings:
@@ -26,3 +27,4 @@ steps:
   #   when:
   #     - evaluate: 'RELEASED_CREATED == true'
   #
+
