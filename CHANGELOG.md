@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.1.8](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.8) - 2024-07-20
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Dev [[#50](https://github.com/FrederikBRoth/cv-adventure/pull/50)]
+- Dev [[#50](https://github.com/FrederikBRoth/cv-adventure/pull/50)]
+- Dev [[#50](https://github.com/FrederikBRoth/cv-adventure/pull/50)]
+- Dev [[#48](https://github.com/FrederikBRoth/cv-adventure/pull/48)]
+- Dev [[#48](https://github.com/FrederikBRoth/cv-adventure/pull/48)]
+- Dev [[#46](https://github.com/FrederikBRoth/cv-adventure/pull/46)]
+- Dev [[#46](https://github.com/FrederikBRoth/cv-adventure/pull/46)]
+- pls [[#44](https://github.com/FrederikBRoth/cv-adventure/pull/44)]
+
+## [0.1.7](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.7) - 2024-07-20
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Dev [[#48](https://github.com/FrederikBRoth/cv-adventure/pull/48)]
+
 ## [0.1.6](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.6) - 2024-07-20
 
 ### ❤️ Thanks to all contributors! ❤️
