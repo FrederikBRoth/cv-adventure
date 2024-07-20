@@ -8,6 +8,7 @@
 
 ### Misc
 
+- Split up pipelines [[#42](https://github.com/FrederikBRoth/cv-adventure/pull/42)]
 - Dev [[#40](https://github.com/FrederikBRoth/cv-adventure/pull/40)]
 - Dev [[#40](https://github.com/FrederikBRoth/cv-adventure/pull/40)]
 - Dev [[#39](https://github.com/FrederikBRoth/cv-adventure/pull/39)]
