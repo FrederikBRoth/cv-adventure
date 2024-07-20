@@ -16,13 +16,13 @@ steps:
     image: debian
     commands:
       - echo $test
-  publish:
-    image: woodpeckerci/plugin-release
-    settings:
-      files:
-        # Could also be "hello-world*" to match both
-      api_key:
-        from_secret: GITHUB_SECRET
-    when:
-      - evaluate: 'RELEASED_CREATED == true'
-
+  # publish:
+  #   image: woodpeckerci/plugin-release
+  #   settings:
+  #     files:
+  #       # Could also be "hello-world*" to match both
+  #     api_key:
+  #       from_secret: GITHUB_SECRET
+  #   when:
+  #     - evaluate: 'RELEASED_CREATED == true'
+  #
