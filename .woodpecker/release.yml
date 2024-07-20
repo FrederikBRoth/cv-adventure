@@ -12,21 +12,5 @@ steps:
       git_email: frederikbroth@gmail.com
       github_token:
         from_secret: GITHUB_SECRET
-  a-test-step:
-    image: debian
-    commands:
-      - ls -a
-
-  publish:
-    image: woodpeckerci/plugin-release
-    settings:
-      files:
-        - 'release.txt'
-        # Could also be "hello-world*" to match both
-      api_key:
-        from_secret: GITHUB_SECRET
-    when:
-      - path:
-        include: ['release.txt']
   #
 
