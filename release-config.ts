@@ -1,6 +1,6 @@
 export default {
   afterRelease: async ({ exec, nextVersion }) => {
-    await exec(`test=true`);
+    await exec(`echo "${nextVersion}" > release.txt`);
   },
   beforePrepare: async ({ exec, nextVersion }) => {
 
