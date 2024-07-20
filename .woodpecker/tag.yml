@@ -2,17 +2,16 @@ when:
   event: [tag]
   branch: ${CI_REPO_DEFAULT_BRANCH}
 
-
 steps:
   a-test-step:
-    image: debian
+    image: rust
     commands:
-      - echo "suck my fucking dick" > test.txt
+      - rustup target add wasm32-unknown-unknown
+  
   publish:
     image: woodpeckerci/plugin-release
     settings:
       files:
-        - 'test.txt'
         # Could also be "hello-world*" to match both
       api_key:
         from_secret: GITHUB_SECRET
