@@ -16,6 +16,7 @@ steps:
     image: debian
     commands:
       - ls -a
+
   # publish:
   #   image: woodpeckerci/plugin-release
   #   settings:
