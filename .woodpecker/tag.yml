@@ -6,13 +6,14 @@ steps:
     image: rust
     commands:
       - rustup target add wasm32-unknown-unknown
-      - wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.20.2/trunk-aarch64-unknown-linux-gnu.tar.gz | tar -xzf-
+      - wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.18.2/trunk-aarch64-unknown-linux-gnu.tar.gz | tar -xzf-
       - ./trunk build --release
       - zip dist.zip dist/*
   publish:
     image: woodpeckerci/plugin-release
     settings:
       files:
+        - "dist.zip"
         # Could also be "hello-world*" to match both
       api_key:
         from_secret: GITHUB_SECRET
