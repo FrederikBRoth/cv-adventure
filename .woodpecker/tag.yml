@@ -6,7 +6,9 @@ steps:
     image: rust
     commands:
       - rustup target add wasm32-unknown-unknown
-  
+      - wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.18.2/trunk-x86_64-unknown-linux-gnu.tar.gz | tar -xzf-
+      - ./trunk build --release
+      - zip dist.zip dist/*
   publish:
     image: woodpeckerci/plugin-release
     settings:
