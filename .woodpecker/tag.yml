@@ -1,5 +1,8 @@
 when:
-  event: [tag, push]
+
+  event: [tag]
+
+
   branch: ${CI_REPO_DEFAULT_BRANCH}
 
 steps:
