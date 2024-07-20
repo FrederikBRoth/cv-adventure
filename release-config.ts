@@ -1,6 +1,10 @@
 export default {
   afterRelease: async ({ exec, nextVersion }) => {
-    await exec(`gh release upload ${nextVersion}`);
+    await exec(`test=true`);
   },
+  beforePrepare: async ({ exec, nextVersion }) => {
+    await exec(`test=false`);
+  },
+
 };
 
