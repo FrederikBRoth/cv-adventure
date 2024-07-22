@@ -14,5 +14,6 @@ steps:
       files:
         - "dist.zip"
         # Could also be "hello-world*" to match both
+      note: "Added dist folder for release"
       api_key:
         from_secret: GITHUB_SECRET
