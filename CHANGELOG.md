@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.19](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.19) - 2024-07-22
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Overide =!= overwrite [[#73](https://github.com/FrederikBRoth/cv-adventure/pull/73)]
+- Overide =!= overwrite [[#73](https://github.com/FrederikBRoth/cv-adventure/pull/73)]
+
 ## [0.1.18](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.18) - 2024-07-22
 
 ### ❤️ Thanks to all contributors! ❤️
