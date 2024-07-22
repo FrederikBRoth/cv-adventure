@@ -5,6 +5,7 @@ steps:
   a-test-step:
     image: frederikbrothimg/rustleptos:latest
     commands:
+      - echo ${CI_COMMIT_TAG}
       - sccache -s
       - export RUSTC_WRAPPER=sccache
       - wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.20.2/trunk-aarch64-unknown-linux-gnu.tar.gz | tar -xzf-
@@ -17,5 +18,6 @@ steps:
         - "dist.zip"
         # Could also be "hello-world*" to match both
       note: "Added dist folder for release"
+      override: true
       api_key:
         from_secret: GITHUB_SECRET
