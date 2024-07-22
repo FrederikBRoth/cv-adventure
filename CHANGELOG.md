@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.20](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.20) - 2024-07-22
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Add another release edit step for webhook triger [[#75](https://github.com/FrederikBRoth/cv-adventure/pull/75)]
+
 ## [0.1.19](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.19) - 2024-07-22
 
 ### ❤️ Thanks to all contributors! ❤️
