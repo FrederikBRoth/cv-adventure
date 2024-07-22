@@ -17,7 +17,7 @@ steps:
       files:
         - "dist.zip"
         # Could also be "hello-world*" to match both
-      note: "Added dist folder for release"
-      override: true
+      title: ${CI_COMMIT_TAG}
+      overwrite: true
       api_key:
         from_secret: GITHUB_SECRET
