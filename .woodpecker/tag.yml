@@ -2,7 +2,7 @@ when:
   event: [tag]
   branch: ${CI_REPO_DEFAULT_BRANCH}
 steps:
-  a-test-step:
+  projectbuild:
     image: frederikbrothimg/rustleptos:latest
     commands:
       - echo ${CI_COMMIT_TAG}
@@ -11,13 +11,18 @@ steps:
       - wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.20.2/trunk-aarch64-unknown-linux-gnu.tar.gz | tar -xzf-
       - ./trunk build --offline --release
       - zip dist.zip dist/*
-  publish:
+  assetupload:
     image: woodpeckerci/plugin-release
     settings:
       files:
         - "dist.zip"
         # Could also be "hello-world*" to match both
-      title: ${CI_COMMIT_TAG}
-      overwrite: true
       api_key:
         from_secret: GITHUB_SECRET
+  webhooktriger:
+      image: woodpeckerci/plugin-release
+      settings:
+        title: ${CI_COMMIT_TAG}
+        overwrite: true
+        api_key:
+          from_secret: GITHUB_SECRET
