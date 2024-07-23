@@ -33,11 +33,6 @@ pub fn Home() -> impl IntoView {
                 <h2>"This is my new website. Cool things to come!"</h2>
                 <h2>"Really cool things!"</h2>
 
-                <div class="flex justify-evenly">
-                    <Button />
-                    <Button increment=5 />
-                </div>
-
                 <DynamicVideo link=url />
                 <picture class="bg-red-300 p-2 rounded-xl absolute bottom-2 left-2">
                     <source
