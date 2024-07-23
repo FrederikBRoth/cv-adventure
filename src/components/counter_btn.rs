@@ -1,4 +1,3 @@
-use html::{button, Button};
 use leptos::*;
 
 /// A parameterized incrementing button
@@ -7,11 +6,11 @@ pub fn Button(#[prop(default = 1)] increment: i32) -> impl IntoView {
     let (count, set_count) = create_signal(0);
     view! {
         <button
-            on:click= move |_| {
-                set_count(count() + increment)
-            }
+            class="bg-red-300 hover:bg-red-700 p-2 m-2"
+            on:click=move |_| { set_count(count() + increment) }
         >
-            "Click me: " {count}
+            "Click me: "
+            {count}
         </button>
     }
 }
