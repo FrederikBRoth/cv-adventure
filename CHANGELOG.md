@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.25](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.25) - 2024-07-23
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Top bar with signals working [[#85](https://github.com/FrederikBRoth/cv-adventure/pull/85)]
+
 ## [0.1.24](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.24) - 2024-07-23
 
 ### ❤️ Thanks to all contributors! ❤️
