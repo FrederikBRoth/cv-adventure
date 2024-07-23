@@ -43,6 +43,7 @@ pub fn Home() -> impl IntoView {
                 <h2>"This is goated, pladwawds for reals! AGAIUNdawdawdaw awdawdd !"</h2>
                 <h2>"this is oemga goated"</h2>
 
+                <p>This is a full pipeline test</p>
                 <div class="buttons">
                     <Button/>
                     <Button increment=5/>
