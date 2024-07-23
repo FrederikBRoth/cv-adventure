@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.24](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.24) - 2024-07-23
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Tailwind pipeline test [[#83](https://github.com/FrederikBRoth/cv-adventure/pull/83)]
+
 ## [0.1.23](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.23) - 2024-07-23
 
 ### ❤️ Thanks to all contributors! ❤️
