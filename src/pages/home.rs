@@ -1,4 +1,6 @@
-use crate::components::{counter_btn::Button, dynamic_video::DynamicVideo, top_bar::TopBar};
+use crate::components::{
+    counter_btn::Button, dynamic_video::DynamicVideo, top_bar::TopBar, video_player::VideoPlayer,
+};
 use leptos::*;
 
 /// Default Home Page
@@ -46,6 +48,7 @@ pub fn Home() -> impl IntoView {
                         width="100"
                     />
                 </picture>
+                <VideoPlayer />
 
             </div>
         </ErrorBoundary>
