@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.26](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.26) - 2024-07-25
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Working dropin video [[#87](https://github.com/FrederikBRoth/cv-adventure/pull/87)]
+
 ## [0.1.25](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.25) - 2024-07-23
 
 ### ❤️ Thanks to all contributors! ❤️
