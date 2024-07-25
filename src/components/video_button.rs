@@ -1,6 +1,5 @@
 use ev::MouseEvent;
 use leptos::*;
-
 /// A parameterized incrementing button
 #[component]
 pub fn VideoButton(name: String, #[prop(into)] on_click: Callback<MouseEvent>) -> impl IntoView {
