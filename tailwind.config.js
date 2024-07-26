@@ -1,9 +1,13 @@
 module.exports = {
-  content: { 
+  content: {
     files: ["*.html", "./src/**/*.rs"],
   },
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "birthday-image": "url(img/rats.gif)",
+      },
+    },
   },
   plugins: [],
-}
+};

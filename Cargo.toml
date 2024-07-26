@@ -13,6 +13,9 @@ leptos_router = { version = "0.6", features = ["csr", "nightly"] }
 console_log = "1"
 log = "0.4"
 console_error_panic_hook = "0.1"
+wasm-bindgen = { version = "0.2", features = ["gg-alloc"] }
+wasm-bindgen-futures = "0.4.42"
+ffmpeg-wasi = "0"
 
 # utils
 # strum = { version = "0.25", features = ["derive", "strum_macros"] }
@@ -21,9 +24,10 @@ console_error_panic_hook = "0.1"
 
 [dependencies.web-sys]
 version = "0.3"
-features = ["DataTransfer", "DragEvent", "File", "FileList", "Url"]
+features = ["DataTransfer", "DragEvent", "File", "FileList", "Url", "Gpu"]
 
 [dev-dependencies]
+wasm-bindgen-futures = "0.4.42"
 wasm-bindgen = "0.2"
 wasm-bindgen-test = "0.3"
 web-sys = { version = "0.3", features = [

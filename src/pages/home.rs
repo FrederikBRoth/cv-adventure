@@ -33,7 +33,7 @@ pub fn Home() -> impl IntoView {
 
                 <h1 class="m-0 auto font-sans test">"Welcome to the site"</h1>
                 <h2>"This is my new website. Cool things to come!"</h2>
-                <h2>"Really cool things!"</h2>
+                <h2>"Really cool things! yahooo"</h2>
 
                 <DynamicVideo link=url />
                 <picture class="bg-red-300 p-2 rounded-xl absolute bottom-2 left-2">
