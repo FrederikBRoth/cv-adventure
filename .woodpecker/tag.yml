@@ -10,7 +10,7 @@ steps:
       - export RUSTC_WRAPPER=sccache
       - wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.20.2/trunk-aarch64-unknown-linux-gnu.tar.gz | tar -xzf-
       - ./trunk build --offline --release
-      - zip dist.zip dist/*
+      - zip -r dist.zip dist/*
   assetupload:
     image: woodpeckerci/plugin-release
     settings:
@@ -20,9 +20,9 @@ steps:
       api_key:
         from_secret: GITHUB_SECRET
   webhooktriger:
-      image: woodpeckerci/plugin-release
-      settings:
-        title: ${CI_COMMIT_TAG}
-        overwrite: true
-        api_key:
-          from_secret: GITHUB_SECRET
+    image: woodpeckerci/plugin-release
+    settings:
+      title: ${CI_COMMIT_TAG}
+      overwrite: true
+      api_key:
+        from_secret: GITHUB_SECRET
