@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.1.28](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.28) - 2024-08-01
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Fixedzip [[#91](https://github.com/FrederikBRoth/cv-adventure/pull/91)]
+
+## [0.1.27](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.27) - 2024-08-01
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Birthday [[#89](https://github.com/FrederikBRoth/cv-adventure/pull/89)]
+
 ## [0.1.26](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.26) - 2024-07-25
 
 ### ❤️ Thanks to all contributors! ❤️
