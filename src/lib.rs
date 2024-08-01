@@ -12,7 +12,7 @@ mod pages;
 use crate::pages::birthday::Birthday;
 use crate::pages::home::Home;
 use crate::pages::not_found::NotFound;
-use crate::pages::test::VideoTranscoder;
+// use crate::pages::test::VideoTranscoder;
 /// An app router which renders the homepage and handles 404's
 #[component]
 pub fn App() -> impl IntoView {
@@ -33,7 +33,7 @@ pub fn App() -> impl IntoView {
             <Routes>
                 <Route path="/" view=Home />
                 <Route path="/birthday" view=Birthday />
-                <Route path="/test" view=VideoTranscoder />
+                // <Route path="/test" view=VideoTranscoder />
                 <Route path="/*" view=NotFound />
             </Routes>
         </Router>
