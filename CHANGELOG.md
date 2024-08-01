@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.32](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.32) - 2024-08-01
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Added new ui [[#99](https://github.com/FrederikBRoth/cv-adventure/pull/99)]
+
 ## [0.1.31](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.31) - 2024-08-01
 
 ### ❤️ Thanks to all contributors! ❤️
