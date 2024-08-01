@@ -67,7 +67,7 @@ pub fn VideoTranscoder() -> impl IntoView {
         >
             "Drop file here!"
         </div>
-        <video class="w-full h-full" src=videourl controls autoplay></video>
+        <audio class="w-full h-full" src=videourl controls autoplay></audio>
     }
     
 }
