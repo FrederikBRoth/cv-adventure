@@ -6,6 +6,7 @@ use ev::{DragEvent, SubmitEvent};
 use wasm_bindgen::prelude::*;
 use web_sys::{js_sys, File, FileList, FileReader, HtmlInputElement, Url};
 
+
 #[wasm_bindgen(module = "/public/ffmpegSetup.js")]
 extern "C" {
     #[wasm_bindgen(catch)]
