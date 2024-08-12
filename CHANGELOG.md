@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.33](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.33) - 2024-08-12
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Wgpu test [[#101](https://github.com/FrederikBRoth/cv-adventure/pull/101)]
+
 ## [0.1.32](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.32) - 2024-08-01
 
 ### ❤️ Thanks to all contributors! ❤️
