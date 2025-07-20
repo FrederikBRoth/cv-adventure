@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.1.34](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.34) - 2025-07-20
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Update release.yml [[#109](https://github.com/FrederikBRoth/cv-adventure/pull/109)]
+- Update release.yml [[#108](https://github.com/FrederikBRoth/cv-adventure/pull/108)]
+- Update release.yml [[#107](https://github.com/FrederikBRoth/cv-adventure/pull/107)]
+- Update release.yml [[#106](https://github.com/FrederikBRoth/cv-adventure/pull/106)]
+- Update README.md [[#105](https://github.com/FrederikBRoth/cv-adventure/pull/105)]
+- Update README.md [[#104](https://github.com/FrederikBRoth/cv-adventure/pull/104)]
+- Update README.md [[#103](https://github.com/FrederikBRoth/cv-adventure/pull/103)]
+
 ## [0.1.33](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.33) - 2024-08-12
 
 ### ❤️ Thanks to all contributors! ❤️
