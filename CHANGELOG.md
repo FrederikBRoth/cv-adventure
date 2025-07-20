@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.36](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.36) - 2025-07-20
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Leptos upgrade [[#117](https://github.com/FrederikBRoth/cv-adventure/pull/117)]
+
 ## [0.1.35](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.35) - 2025-07-20
 
 ### ❤️ Thanks to all contributors! ❤️
