@@ -2,12 +2,12 @@ use crate::components::{
     counter_btn::Button, dynamic_video::DynamicVideo, top_bar::TopBar, video_player::VideoPlayer,
 };
 use leptos::*;
-
+use leptos::prelude::*;
 /// Default Home Page
 #[component]
 pub fn Home() -> impl IntoView {
     let (url, set_url) =
-        create_signal("https://www.youtube.com/embed/vg0Tmydj29M?si=E2cgbgxXHqNB0Ec1".to_string());
+        signal("https://www.youtube.com/embed/vg0Tmydj29M?si=E2cgbgxXHqNB0Ec1".to_string());
     view! {
         <ErrorBoundary fallback=|errors| {
             view! {
