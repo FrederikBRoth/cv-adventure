@@ -7,7 +7,7 @@ use wasm_bindgen::prelude::*;
 use web_sys::{js_sys, File, FileList, FileReader, HtmlInputElement, Url};
 use crate::components::top_bar_expanding::TopBarExpanding;
 
-#[wasm_bindgen(module = "/public/ffmpegSetup.js")]
+#[wasm_bindgen(module = "/src/wasm/ffmpegSetup.js")]
 extern "C" {
     #[wasm_bindgen(catch)]
     async fn transcodeVideo(inputName: JsValue) -> Result<JsValue, JsValue>;
