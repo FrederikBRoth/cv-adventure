@@ -8,7 +8,7 @@ steps:
       - echo ${CI_COMMIT_TAG}
       - sccache -s
       - export RUSTC_WRAPPER=sccache
-      - wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.20.2/trunk-aarch64-unknown-linux-gnu.tar.gz | tar -xzf-
+      - wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.21.14/trunk-aarch64-unknown-linux-gnu.tar.gz | tar -xzf-
       - ./trunk build --offline --release
       - zip -r dist.zip dist/*
   assetupload:

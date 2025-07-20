@@ -1,5 +1,7 @@
-use leptos::wasm_bindgen::JsCast;
+use leptos::{reactive::spawn_local, wasm_bindgen::JsCast};
 use leptos::*;
+use leptos::prelude::*;
+use leptos_meta::*;
 use leptos_dom::logging::console_log;
 use web_sys::window;
 use ev::{DragEvent, SubmitEvent};
@@ -16,8 +18,8 @@ extern "C" {
 
 #[component]
 pub fn Birthday() -> impl IntoView {
-    let (videourl, set_videourl) = create_signal("/img/basesong.mp3".to_string());
-    let (loading, set_loading) = create_signal(false);
+    let (videourl, set_videourl) = signal("/img/basesong.mp3".to_string());
+    let (loading, set_loading) = signal(false);
     fn on_submit(name: String, videourl: WriteSignal<String>, loading: WriteSignal<bool> ) {
         // stop the page from reloading!
         loading.update(|n| *n = true);

@@ -1,6 +1,8 @@
 use std::ops::Deref;
 
+use leptos::prelude::*;
 use leptos::*;
+use leptos_meta::*;
 use leptos_dom::logging::console_log;
 use web_sys::js_sys;
 use web_sys::DragEvent;
@@ -8,7 +10,7 @@ use web_sys::Url;
 
 #[component]
 pub fn VideoPlayer() -> impl IntoView {
-    let (videourl, set_videourl) = create_signal("".to_string());
+    let (videourl, set_videourl) = signal("".to_string());
     pub fn file_dropped(ev: DragEvent) -> String {
         // Resize the window to 500px by 500px.
         ev.prevent_default();

@@ -2,6 +2,7 @@ use std::ops::Deref;
 
 use ev::DragEvent;
 use leptos::*;
+use leptos::prelude::*;
 use wasm_bindgen::prelude::*;
 use web_sys::{js_sys, File, FileList, FileReader, HtmlInputElement, Url};
 
@@ -13,7 +14,7 @@ extern "C" {
 
 #[component]
 pub fn Game() -> impl IntoView {
-    create_effect(move |_| {
+    Effect::new(move |_| {
         initGame();
     });
 
