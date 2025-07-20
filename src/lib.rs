@@ -1,9 +1,11 @@
 use components::counter_btn::{Button, ButtonPropsBuilder_Error_Repeated_field_increment};
-use html::Button;
+use leptos::prelude::*;
 use leptos::*;
 use leptos_meta::*;
-use leptos_router::*;
-
+use leptos_router::{
+    components::{Route, Router, Routes},
+    StaticSegment,
+};
 // Modules
 mod components;
 mod pages;
@@ -21,7 +23,6 @@ pub fn App() -> impl IntoView {
     provide_meta_context();
 
     view! {
-        <Html lang="en" dir="ltr" attr:data-theme="light" />
 
         // sets the document title
         <Title text="Dank website" />
@@ -31,11 +32,11 @@ pub fn App() -> impl IntoView {
         <Meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <Router>
-            <Routes>
-                <Route path="/" view=Home />
-                <Route path="/birthday" view=Birthday />
-                <Route path="/test" view=Game />
-                <Route path="/*" view=NotFound />
+            <Routes fallback=|| "Page not found.">
+                <Route path=StaticSegment("/") view=Home />
+                <Route path=StaticSegment("/birthday") view=Birthday />
+                <Route path=StaticSegment("/test") view=Game />
+                <Route path=StaticSegment("/*") view=NotFound />
             </Routes>
         </Router>
     }

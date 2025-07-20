@@ -1,5 +1,9 @@
-use crate::components::video_button::VideoButton;
+use leptos::prelude::*;
 use leptos::*;
+use leptos_meta::*;
+use web_sys::MouseEvent;
+
+use crate::components::video_button::VideoButton;
 #[component]
 pub fn TopBar(setter: WriteSignal<String>) -> impl IntoView {
     // let styler_class = style!();
@@ -38,3 +42,4 @@ pub fn TopBar(setter: WriteSignal<String>) -> impl IntoView {
         </div>
     }
 }
+
