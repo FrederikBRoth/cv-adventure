@@ -25,7 +25,7 @@ pub fn App() -> impl IntoView {
     view! {
 
         // sets the document title
-        <Title text="Dank website" />
+        <Title text="Dank lmao website" />
 
         // injects metadata in the <head> of the page
         <Meta charset="UTF-8" />
