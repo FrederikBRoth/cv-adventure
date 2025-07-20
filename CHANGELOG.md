@@ -8,6 +8,7 @@
 
 ### Misc
 
+- Update tag.yml [[#111](https://github.com/FrederikBRoth/cv-adventure/pull/111)]
 - Update release.yml [[#109](https://github.com/FrederikBRoth/cv-adventure/pull/109)]
 - Update release.yml [[#108](https://github.com/FrederikBRoth/cv-adventure/pull/108)]
 - Update release.yml [[#107](https://github.com/FrederikBRoth/cv-adventure/pull/107)]
