@@ -8,6 +8,7 @@
 
 ### Misc
 
+- Specify config file [[#124](https://github.com/FrederikBRoth/cv-adventure/pull/124)]
 - Update README.md [[#122](https://github.com/FrederikBRoth/cv-adventure/pull/122)]
 - Update tag.yml [[#121](https://github.com/FrederikBRoth/cv-adventure/pull/121)]
 
