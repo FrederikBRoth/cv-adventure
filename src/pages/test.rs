@@ -18,5 +18,5 @@ pub fn Game() -> impl IntoView {
         initGame();
     });
 
-    view! { <div id="wasm-example" class="bg-sky-300"></div> }
+    view! { <div id="wasm-example" class="bg-sky-300"><canvas id="canvas" class="bg-sky-300"></canvas></div> }
 }

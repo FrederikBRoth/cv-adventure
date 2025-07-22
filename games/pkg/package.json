@@ -1,17 +1,17 @@
 {
-  "name": "tutorial8-depth",
+  "name": "cv_game",
   "type": "module",
   "collaborators": [
     "Ben Hansen <https://github.com/sotrh>"
   ],
   "version": "0.1.0",
   "files": [
-    "tutorial8_depth_bg.wasm",
-    "tutorial8_depth.js",
-    "tutorial8_depth.d.ts"
+    "cv_game_bg.wasm",
+    "cv_game.js",
+    "cv_game.d.ts"
   ],
-  "main": "tutorial8_depth.js",
-  "types": "tutorial8_depth.d.ts",
+  "main": "cv_game.js",
+  "types": "cv_game.d.ts",
   "sideEffects": [
     "./snippets/*"
   ]
