@@ -1,4 +1,4 @@
-import init from "/games/pkg/tutorial8_depth.js";
+import init from "/games/pkg/cv_game.js";
 
 export const initGame = () => {
   console.log("function called")
