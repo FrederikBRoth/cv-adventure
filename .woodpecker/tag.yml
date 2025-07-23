@@ -22,7 +22,7 @@ steps:
   docker-build:
     image: woodpeckerci/plugin-docker-buildx
     settings:
-      repo: FrederikBRoth/WebsiteTest
+      repo: cv-site-nginx
       dockerfile: nginx/Dockerfile
       platforms: linux/arm64/v8
       tag: latest
