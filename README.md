@@ -78,4 +78,3 @@ For further information about hosting Leptos CSR apps, please refer to [the Lept
 
 [deploy-csr]: https://book.leptos.dev/deployment/csr.html
 
-Please 4
