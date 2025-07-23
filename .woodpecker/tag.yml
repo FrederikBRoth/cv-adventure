@@ -23,7 +23,7 @@ steps:
     image: woodpeckerci/plugin-docker-buildx
     settings:
       repo: cv-site-nginx
-
+      context: nginx/.
       dockerfile: nginx/Dockerfile
       platforms: linux/arm64/v8
       tag: latest
