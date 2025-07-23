@@ -19,6 +19,17 @@ steps:
         # Could also be "hello-world*" to match both
       api_key:
         from_secret: GITHUB_SECRET
+  docker-build:
+    image: woodpeckerci/plugin-docker-buildx
+    settings:
+      repo: FrederikBRoth/WebsiteTest
+      dockerfile: nginx/Dockerfile
+      platforms: linux/arm64/v8
+      tag: latest
+      username:
+        from_secret: docker_username
+      password:
+        from_secret: docker_password
   webhooktriger:
     image: woodpeckerci/plugin-release
     settings:
