@@ -11,6 +11,7 @@ steps:
       - wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.21.14/trunk-aarch64-unknown-linux-gnu.tar.gz | tar -xzf-
       - ./trunk build --offline --release
       - zip -r dist.zip dist/*
+      - mv dist nginx/dist
   assetupload:
     image: woodpeckerci/plugin-release
     settings:
