@@ -1,5 +1,59 @@
 # Changelog
 
+## [0.1.42](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.42) - 2025-07-23
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Update README.md [[#134](https://github.com/FrederikBRoth/cv-adventure/pull/134)]
+- Update README.md [[#133](https://github.com/FrederikBRoth/cv-adventure/pull/133)]
+- Lmao godignore [[#132](https://github.com/FrederikBRoth/cv-adventure/pull/132)]
+
+## [0.1.41](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.41) - 2025-07-22
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Lmao godignore [[#130](https://github.com/FrederikBRoth/cv-adventure/pull/130)]
+
+## [0.1.40](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.40) - 2025-07-22
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Update tag.yml [[#128](https://github.com/FrederikBRoth/cv-adventure/pull/128)]
+
+## [0.1.39](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.39) - 2025-07-22
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- New fix [[#125](https://github.com/FrederikBRoth/cv-adventure/pull/125)]
+
+## [0.1.38](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.38) - 2025-07-20
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Specify config file [[#124](https://github.com/FrederikBRoth/cv-adventure/pull/124)]
+- Update README.md [[#122](https://github.com/FrederikBRoth/cv-adventure/pull/122)]
+- Update tag.yml [[#121](https://github.com/FrederikBRoth/cv-adventure/pull/121)]
+
 ## [0.1.37](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.37) - 2025-07-20
 
 ### ❤️ Thanks to all contributors! ❤️
