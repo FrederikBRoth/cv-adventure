@@ -2,8 +2,8 @@ use std::ops::Deref;
 
 use leptos::prelude::*;
 use leptos::*;
-use leptos_meta::*;
 use leptos_dom::logging::console_log;
+use leptos_meta::*;
 use web_sys::js_sys;
 use web_sys::DragEvent;
 use web_sys::Url;
@@ -34,12 +34,14 @@ pub fn VideoPlayer() -> impl IntoView {
         ev.prevent_default();
         console_log("asawd");
     }
+
     view! {
         <div
             class="w-3/6 h-96 bg-red-300 flex justify-center items-center"
             on:drop=move |ev: DragEvent| { set_videourl.update(|url| *url = file_dropped(ev)) }
             on:dragover=move |ev: DragEvent| { file_dragged(ev) }
         >
+
             "Drop file here!"
             <video class="w-full h-full" src=videourl controls autoplay></video>
         </div>
