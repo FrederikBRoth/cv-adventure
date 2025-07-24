@@ -43,7 +43,7 @@ pub fn Birthday() -> impl IntoView {
         ev.prevent_default();
     }
     view! {
-        <div class="w-[100vw] h-[100vh] bg-birthday-image bg-cover flex justify-center items-center">
+        <div class="w-[100vw] h-[100vh] bg-[url(img/rats.gif)] bg-cover flex justify-center items-center">
             <TopBarExpanding on_submit_form=move |name: String| {
                 on_submit(name, set_videourl, set_loading)
             } />
