@@ -1,11 +1,11 @@
 use ev::SubmitEvent;
 use leptos::prelude::*;
 use leptos::*;
-use leptos_meta::*;
 use leptos_dom::logging::console_log;
+use leptos_meta::*;
 use web_sys::MouseEvent;
 #[component]
-pub fn TopBarExpanding(mut on_submit_form: impl FnMut(String)  + 'static ) -> impl IntoView {
+pub fn TopBarExpanding(mut on_submit_form: impl FnMut(String) + 'static) -> impl IntoView {
     let (name, set_name) = signal("Uncontrolled".to_string());
     let (clicked, set_clicked) = signal(false);
 

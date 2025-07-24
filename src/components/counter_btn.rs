@@ -1,6 +1,4 @@
 use leptos::prelude::*;
-use leptos::*;
-use leptos_meta::*;
 /// A parameterized incrementing button
 #[component]
 pub fn Button(#[prop(default = 1)] increment: i32) -> impl IntoView {

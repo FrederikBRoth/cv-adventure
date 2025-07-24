@@ -1,8 +1,4 @@
-use std::string;
-
 use leptos::prelude::*;
-use leptos::*;
-use leptos_meta::*;
 #[component]
 pub fn DynamicVideo(link: ReadSignal<String>) -> impl IntoView {
     view! {
@@ -10,7 +6,7 @@ pub fn DynamicVideo(link: ReadSignal<String>) -> impl IntoView {
             <iframe
                 width="560"
                 height="315"
-                src=link.clone()
+                src=link
                 title="YouTube video player"
                 allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
