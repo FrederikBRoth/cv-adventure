@@ -25,7 +25,7 @@ pub fn App() -> impl IntoView {
     view! {
 
         // sets the document title
-        <Title text="Awesome!" />
+        <Title text="CD pipeline works!!" />
 
         // injects metadata in the <head> of the page
         <Meta charset="UTF-8" />
