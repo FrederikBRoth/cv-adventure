@@ -1,5 +1,5 @@
 # nginx/Dockerfile
-FROM nginx:1.25.5-alpine
+FROM nginx:latest
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY ../dist /var/www
