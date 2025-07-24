@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.50](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.50) - 2025-07-24
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Tailwind migration [[#150](https://github.com/FrederikBRoth/cv-adventure/pull/150)]
+
 ## [0.1.49](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.49) - 2025-07-24
 
 ### ❤️ Thanks to all contributors! ❤️
