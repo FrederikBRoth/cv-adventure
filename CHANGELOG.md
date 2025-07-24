@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.48](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.48) - 2025-07-24
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Updated to latest version nginx [[#146](https://github.com/FrederikBRoth/cv-adventure/pull/146)]
+
 ## [0.1.47](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.47) - 2025-07-24
 
 ### ❤️ Thanks to all contributors! ❤️
