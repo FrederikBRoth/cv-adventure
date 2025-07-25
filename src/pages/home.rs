@@ -1,13 +1,11 @@
 use crate::components::{
     counter_btn::Button, dynamic_video::DynamicVideo, top_bar::TopBar, video_player::VideoPlayer,
 };
-use leptos::*;
 use leptos::prelude::*;
+use leptos::*;
 /// Default Home Page
 #[component]
 pub fn Home() -> impl IntoView {
-    let (url, set_url) =
-        signal("https://www.youtube.com/embed/vg0Tmydj29M?si=E2cgbgxXHqNB0Ec1".to_string());
     view! {
         <ErrorBoundary fallback=|errors| {
             view! {
@@ -27,7 +25,6 @@ pub fn Home() -> impl IntoView {
             }
         }>
 
-            <TopBar setter=set_url />
 
             <div class="flex flex-col justify-around items-center">
 
@@ -35,20 +32,6 @@ pub fn Home() -> impl IntoView {
                 <h2>"This is my new website. Cool things to come!"</h2>
                 <h2>"Really cool things! yahooo"</h2>
 
-                <DynamicVideo link=url />
-                <picture class="bg-red-300 p-2 rounded-xl absolute bottom-2 left-2">
-                    <source
-                        srcset="https://raw.githubusercontent.com/leptos-rs/leptos/main/docs/logos/Leptos_logo_pref_dark_RGB.svg"
-                        media="(prefers-color-scheme: dark)"
-                    />
-                    <img
-                        src="https://raw.githubusercontent.com/leptos-rs/leptos/main/docs/logos/Leptos_logo_RGB.svg"
-                        alt="Leptos Logo"
-                        height="50"
-                        width="100"
-                    />
-                </picture>
-                <VideoPlayer />
 
             </div>
         </ErrorBoundary>

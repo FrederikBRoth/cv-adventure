@@ -1,5 +1,5 @@
-use leptos::*;
 use leptos::prelude::*;
+use leptos::*;
 
 /// 404 Not Found Page
 #[component]

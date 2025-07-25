@@ -15,6 +15,7 @@ use crate::pages::birthday::Birthday;
 use crate::pages::home::Home;
 use crate::pages::not_found::NotFound;
 use crate::pages::test::Game;
+use crate::pages::video_switcher::VideoSwitcher;
 // use crate::pages::test::VideoTranscoder;
 /// An app router which renders the homepage and handles 404's
 #[component]
@@ -35,6 +36,7 @@ pub fn App() -> impl IntoView {
             <Routes fallback=|| "Page not found.">
                 <Route path=StaticSegment("/") view=Home />
                 <Route path=StaticSegment("/birthday") view=Birthday />
+                <Route path=StaticSegment("/video") view=VideoSwitcher />
                 <Route path=StaticSegment("/test") view=Game />
                 <Route path=StaticSegment("/*") view=NotFound />
             </Routes>
