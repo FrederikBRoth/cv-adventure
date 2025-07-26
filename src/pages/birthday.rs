@@ -37,7 +37,7 @@ pub fn Birthday() -> impl IntoView {
                 }
             }
         });
-    };
+    }
 
     pub fn file_dragged(ev: DragEvent) {
         ev.prevent_default();

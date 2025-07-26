@@ -1,4 +1,3 @@
-use components::counter_btn::{Button, ButtonPropsBuilder_Error_Repeated_field_increment};
 use leptos::prelude::*;
 use leptos::*;
 use leptos_meta::*;
@@ -15,6 +14,7 @@ use crate::pages::birthday::Birthday;
 use crate::pages::home::Home;
 use crate::pages::not_found::NotFound;
 use crate::pages::test::Game;
+use crate::pages::video_switcher::VideoSwitcher;
 // use crate::pages::test::VideoTranscoder;
 /// An app router which renders the homepage and handles 404's
 #[component]
@@ -23,6 +23,23 @@ pub fn App() -> impl IntoView {
     provide_meta_context();
 
     view! {
+       <ErrorBoundary fallback=|errors| {
+            view! {
+                <h1>"Uh oh! Something went wrong!"</h1>
+                <p>"Errors: "</p>
+                // Render a list of errors as strings - good for development purposes
+                <ul>
+                    {move || {
+                        errors
+                            .get()
+                            .into_iter()
+                            .map(|(_, e)| view! { <li>{e.to_string()}</li> })
+                            .collect_view()
+                    }}
+
+                </ul>
+            }
+        }>
 
         // sets the document title
         <Title text="CD pipeline works!!" />
@@ -35,9 +52,12 @@ pub fn App() -> impl IntoView {
             <Routes fallback=|| "Page not found.">
                 <Route path=StaticSegment("/") view=Home />
                 <Route path=StaticSegment("/birthday") view=Birthday />
+                <Route path=StaticSegment("/video") view=VideoSwitcher />
                 <Route path=StaticSegment("/test") view=Game />
                 <Route path=StaticSegment("/*") view=NotFound />
             </Routes>
         </Router>
+
+        </ErrorBoundary>
     }
 }

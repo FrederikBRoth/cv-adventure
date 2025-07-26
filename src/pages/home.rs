@@ -1,56 +1,40 @@
-use crate::components::{
-    counter_btn::Button, dynamic_video::DynamicVideo, top_bar::TopBar, video_player::VideoPlayer,
-};
-use leptos::*;
+use leptos::ev::wheel;
+use leptos::leptos_dom::logging::console_log;
 use leptos::prelude::*;
-/// Default Home Page
+use leptos::*;
+use log::Record;
+use wasm_bindgen::prelude::wasm_bindgen;
+use wasm_bindgen::JsValue;
+use web_sys::{Event, MouseEvent, WheelEvent};
+
+#[wasm_bindgen(module = "/public/gameimport.js")]
+extern "C" {
+    #[wasm_bindgen(catch)]
+    fn initGame() -> Result<JsValue, JsValue>;
+}
+
 #[component]
 pub fn Home() -> impl IntoView {
-    let (url, set_url) =
-        signal("https://www.youtube.com/embed/vg0Tmydj29M?si=E2cgbgxXHqNB0Ec1".to_string());
+    let disable_wheel = move |ev: WheelEvent| {
+        ev.stop_immediate_propagation();
+    };
+    Effect::new(move |_| {
+        println!("awd");
+        initGame().unwrap();
+    });
     view! {
-        <ErrorBoundary fallback=|errors| {
-            view! {
-                <h1>"Uh oh! Something went wrong!"</h1>
-                <p>"Errors: "</p>
-                // Render a list of errors as strings - good for development purposes
-                <ul>
-                    {move || {
-                        errors
-                            .get()
-                            .into_iter()
-                            .map(|(_, e)| view! { <li>{e.to_string()}</li> })
-                            .collect_view()
-                    }}
+        <div id="main" class="grid grid-cols-12 grid-rows-150 w-full h-1000">
+            <div class="z-2 col-start-1 col-end-13 row-start-1 row-end-2 bg-indigo-800">
 
-                </ul>
-            }
-        }>
 
-            <TopBar setter=set_url />
-
-            <div class="flex flex-col justify-around items-center">
-
+            </div>
+            <div class="z-2 flex flex-col justify-around items-center col-start-3 col-end-11 row-start-4 row-end-10 bg-purple-700 rounded-xl">
                 <h1 class="m-0 auto font-sans test">"Welcome to the site"</h1>
                 <h2>"This is my new website. Cool things to come!"</h2>
                 <h2>"Really cool things! yahooo"</h2>
-
-                <DynamicVideo link=url />
-                <picture class="bg-red-300 p-2 rounded-xl absolute bottom-2 left-2">
-                    <source
-                        srcset="https://raw.githubusercontent.com/leptos-rs/leptos/main/docs/logos/Leptos_logo_pref_dark_RGB.svg"
-                        media="(prefers-color-scheme: dark)"
-                    />
-                    <img
-                        src="https://raw.githubusercontent.com/leptos-rs/leptos/main/docs/logos/Leptos_logo_RGB.svg"
-                        alt="Leptos Logo"
-                        height="50"
-                        width="100"
-                    />
-                </picture>
-                <VideoPlayer />
-
             </div>
-        </ErrorBoundary>
+        </div>
+        <canvas on:wheel=disable_wheel id="canvas" class="fixed top-0 left-0 w-full h-screen bg-purple-300 z-0 outline-none"/>
+
     }
 }
