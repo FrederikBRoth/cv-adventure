@@ -1,4 +1,3 @@
-use components::counter_btn::{Button, ButtonPropsBuilder_Error_Repeated_field_increment};
 use leptos::prelude::*;
 use leptos::*;
 use leptos_meta::*;
@@ -24,6 +23,23 @@ pub fn App() -> impl IntoView {
     provide_meta_context();
 
     view! {
+       <ErrorBoundary fallback=|errors| {
+            view! {
+                <h1>"Uh oh! Something went wrong!"</h1>
+                <p>"Errors: "</p>
+                // Render a list of errors as strings - good for development purposes
+                <ul>
+                    {move || {
+                        errors
+                            .get()
+                            .into_iter()
+                            .map(|(_, e)| view! { <li>{e.to_string()}</li> })
+                            .collect_view()
+                    }}
+
+                </ul>
+            }
+        }>
 
         // sets the document title
         <Title text="CD pipeline works!!" />
@@ -41,5 +57,7 @@ pub fn App() -> impl IntoView {
                 <Route path=StaticSegment("/*") view=NotFound />
             </Routes>
         </Router>
+
+        </ErrorBoundary>
     }
 }
