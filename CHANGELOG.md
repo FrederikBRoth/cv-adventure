@@ -8,6 +8,7 @@
 
 ### Misc
 
+- removed games [[#158](https://github.com/FrederikBRoth/cv-adventure/pull/158)]
 - Cv frontpage [[#156](https://github.com/FrederikBRoth/cv-adventure/pull/156)]
 
 ## [0.1.52](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.52) - 2025-07-26
