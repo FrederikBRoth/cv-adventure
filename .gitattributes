@@ -1,0 +1,3 @@
+games/pkg/*.wasm merge=ours
+games/pkg/*.js merge=ours
+games/pkg/*.d.ts merge=ours
