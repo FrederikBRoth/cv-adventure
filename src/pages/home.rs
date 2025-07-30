@@ -32,6 +32,8 @@ pub fn Home() -> impl IntoView {
                 <h1 class="m-0 auto font-sans test">"Welcome to the site"</h1>
                 <h2>"This is my new website. Cool things to come!"</h2>
                 <h2>"Really cool things! yahooo"</h2>
+                <h2>"Press SPACE to stop animation. When animation is stopped, you can use WASD to spin around the object and zoom in and out"</h2>
+            <h2>"You can also RMB to do cool explosion. Wow"</h2>
             </div>
         </div>
         <canvas on:wheel=disable_wheel id="canvas" class="fixed top-0 left-0 w-full h-screen bg-[rgb(54,5,42)] z-0 outline-none"/>
