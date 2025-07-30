@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.55](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.55) - 2025-07-30
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- cool voxels added [[#162](https://github.com/FrederikBRoth/cv-adventure/pull/162)]
+
 ## [0.1.53](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.53) - 2025-07-28
 
 ### ❤️ Thanks to all contributors! ❤️
