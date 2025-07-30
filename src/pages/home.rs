@@ -24,17 +24,17 @@ pub fn Home() -> impl IntoView {
     });
     view! {
         <div id="main" class="grid grid-cols-12 grid-rows-150 w-full h-1000">
-            <div class="z-2 col-start-1 col-end-13 row-start-1 row-end-2 bg-indigo-800">
+            <div class="z-2 col-start-1 col-end-13 row-start-1 row-end-2 bg-pink-600">
 
 
             </div>
-            <div class="z-2 flex flex-col justify-around items-center col-start-3 col-end-11 row-start-4 row-end-10 bg-purple-700 rounded-xl">
+            <div class="z-2 flex flex-col justify-around items-center col-start-3 col-end-11 row-start-4 row-end-10 bg-pink-500 rounded-xl">
                 <h1 class="m-0 auto font-sans test">"Welcome to the site"</h1>
                 <h2>"This is my new website. Cool things to come!"</h2>
                 <h2>"Really cool things! yahooo"</h2>
             </div>
         </div>
-        <canvas on:wheel=disable_wheel id="canvas" class="fixed top-0 left-0 w-full h-screen bg-purple-300 z-0 outline-none"/>
+        <canvas on:wheel=disable_wheel id="canvas" class="fixed top-0 left-0 w-full h-screen bg-[rgb(54,5,42)] z-0 outline-none"/>
 
     }
 }
