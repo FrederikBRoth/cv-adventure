@@ -28,29 +28,58 @@ pub fn Home() -> impl IntoView {
 
     view! {
 
-            <div id="main" class="grid grid-cols-12 grid-rows-150 w-full h-1000">
-
-            <div class="z-2 row-start-38 row-end-62 col-start-2 col-end-9 bg-pink-500 opacity-75 rounded-xl">
-
-                </div>
-
-                <div class="z-2 row-start-70 row-end-94 col-start-5 col-end-12 bg-pink-500 opacity-75 rounded-xl">
-
+            <div id="main" class="grid grid-cols-12 grid-rows-300 w-full h-2000">
+                //CSharp info
+                <div class="z-2 row-start-38 row-end-62 col-start-2 md:col-end-9 col-end-12 bg-pink-500 opacity-75 rounded-xl">
 
                 </div>
 
-                <div class="z-2 row-start-102 row-end-126 col-start-2 col-end-9 bg-pink-500 opacity-75 rounded-xl">
+                //Rust info
+                <div class="z-2 row-start-70 row-end-94 col-start-2 md:col-start-5 col-end-12 bg-pink-500 opacity-75 rounded-xl">
 
                 </div>
 
-                <div class="z-2 row-start-134 row-end-151 col-start-5 col-end-12 bg-pink-500 opacity-75 rounded-xl">
-
+                //C++ info
+                <div class="z-2 row-start-102 row-end-126 col-start-2 col-end-12 md:col-end-9 bg-pink-500 opacity-75 rounded-xl">
 
                 </div>
+
+                //Containerization/Devops info
+                <div class="z-2 row-start-134 row-end-159 col-start-2 md:col-start-5 col-end-12 bg-pink-500 opacity-75 rounded-xl">
+
+                </div>
+
+                //Whatever
+                <div class="z-2 row-start-167 md:row-end-192 row-end-179 col-start-2 md:col-end-5 col-end-12 bg-pink-500 opacity-75 rounded-xl">
+
+                </div>
+
+                //Whatever 2
+                <div class="z-2 md:row-start-167 row-start-180 row-end-192 md:col-start-9 col-start-2 col-end-12 bg-pink-500 opacity-75 rounded-xl">
+                </div>
+
+                //whatever 3
+                <div class="z-2 row-start-200 row-end-225 col-start-2 col-end-12 md:col-end-9 bg-pink-500 opacity-75 rounded-xl">
+
+                </div>
+
+                //whatevr 4
+                <div class="z-2 row-start-233 row-end-258 md:col-start-5 col-start-2 col-end-12 bg-pink-500 opacity-75 rounded-xl">
+
+                </div>
+                //Whatever
+                <div class="z-2 row-start-266 md:row-end-291 row-end-278 col-start-2 md:col-end-5 col-end-12 bg-pink-500 opacity-75 rounded-xl">
+
+                </div>
+
+                //Whatever 2
+                <div class="z-2 md:row-start-266 row-start-279 row-end-291 md:col-start-9 col-start-2 col-end-12 bg-pink-500 opacity-75 rounded-xl">
+                </div>
+
                 <div class="z-2 col-start-1 col-end-13 row-start-1 row-end-2 bg-pink-600">
 
-
                 </div>
+
                 <div class="z-2 flex flex-col justify-around items-center col-start-3 col-end-11 row-start-4 row-end-10 bg-pink-500 rounded-xl">
                     <h1 class="m-0 auto font-sans test">"Welcome to the site"</h1>
                     <h2>"This is my new website. Cool things to come!"</h2>
