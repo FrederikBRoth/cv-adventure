@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.58](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.58) - 2025-08-04
+
+### ❤️ Thanks to all contributors! ❤️
+
+@FrederikBRoth
+
+### Misc
+
+- Finished home layout [[#168](https://github.com/FrederikBRoth/cv-adventure/pull/168)]
+
 ## [0.1.57](https://github.com/FrederikBRoth/cv-adventure/releases/tag/0.1.57) - 2025-08-03
 
 ### ❤️ Thanks to all contributors! ❤️
