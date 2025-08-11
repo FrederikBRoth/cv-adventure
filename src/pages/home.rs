@@ -91,7 +91,7 @@ pub fn Home() -> impl IntoView {
 
                 <div class="z-2 flex flex-col justify-around items-center col-start-3 col-end-11 row-start-4 row-end-10 bg-pink-500 rounded-xl">
                     <h1 class="m-0 auto font-sans test">"Welcome to the site"</h1>
-                    <h2>"This is my new website. Cool things to come!"</h2>
+                    <h2>"This is my new website. Cool things to come! Right?"</h2>
                     <h2>"Really cool things! yahooo"</h2>
                     <h2>"Press SPACE to stop animation. When animation is stopped, you can use WASD to spin around the object and zoom in and out"</h2>
                 <h2>"You can also RMB to do cool explosion. Wow"</h2>
