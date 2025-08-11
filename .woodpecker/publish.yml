@@ -1,5 +1,5 @@
 when:
-  event: [tag]
+  event: push
   branch: ${CI_REPO_DEFAULT_BRANCH}
 steps:
   projectbuild:
@@ -12,14 +12,6 @@ steps:
       - ./trunk build --release --config .
       - zip -r dist.zip dist/*
       - mv dist nginx/dist
-  assetupload:
-    image: woodpeckerci/plugin-release
-    settings:
-      files:
-        - "dist.zip"
-        # Could also be "hello-world*" to match both
-      api_key:
-        from_secret: GITHUB_SECRET
   docker-build:
     image: woodpeckerci/plugin-docker-buildx
     settings:
