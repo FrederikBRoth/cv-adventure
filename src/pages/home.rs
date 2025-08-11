@@ -1,12 +1,11 @@
-use leptos::ev::wheel;
-use leptos::html::Canvas;
 use leptos::leptos_dom::logging::console_log;
 use leptos::prelude::*;
+
+use crate::components::slider::{Carousel, CarouselElement};
 use leptos::*;
-use log::Record;
-use wasm_bindgen::prelude::{wasm_bindgen, Closure};
-use wasm_bindgen::{JsCast, JsValue};
-use web_sys::{console, Event, KeyboardEvent, MouseEvent, WheelEvent};
+use wasm_bindgen::prelude::wasm_bindgen;
+use wasm_bindgen::JsValue;
+use web_sys::WheelEvent;
 
 #[wasm_bindgen(module = "/public/gameimport.js")]
 extern "C" {
@@ -30,8 +29,18 @@ pub fn Home() -> impl IntoView {
 
             <div id="main" class="grid grid-cols-12 grid-rows-300 w-full h-2000">
                 //CSharp info
-                <div class="z-2 row-start-38 row-end-62 col-start-2 md:col-end-9 col-end-12 bg-pink-500 opacity-75 rounded-xl">
-
+                <div class="z-2 p-2 row-start-38 row-end-62 col-start-2 md:col-end-9 col-end-12 bg-pink-500 opacity-75 rounded-xl">
+                    <Carousel>
+                        <CarouselElement>
+                            Thing here!
+                        </CarouselElement>
+                        <CarouselElement>
+                            Another thing here!
+                        </CarouselElement>
+                        <CarouselElement>
+                            Yet another thing here!
+                        </CarouselElement>
+                    </Carousel>
                 </div>
 
                 //Rust info
