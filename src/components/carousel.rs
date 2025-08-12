@@ -86,5 +86,9 @@ pub fn Carousel(children: ChildrenFragment) -> impl IntoView {
 
 #[component]
 pub fn CarouselElement(children: Children) -> impl IntoView {
-    view! { <div class="p-2 h-full bg-pink-300 rounded-lg">{children()}</div> }
+    view! {
+        <div class="overflow-y-auto p-2 pr-5 pl-5 h-full bg-pink-300 rounded-lg scrollbar">
+            {children()}
+        </div>
+    }
 }

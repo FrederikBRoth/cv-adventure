@@ -2,6 +2,23 @@
 @theme {
   --font-sans: "DepartureMono Nerd Font Mono", sans-serif;
 }
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    /* background: #f9a8d4; */
+
+    background: #ec4899;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    /* background: #ec4899; */
+
+    background: #f9a8d4;
+  }
+}
 /* @layer theme, custom-base, custom-components, custom-utilities; */
 /* @import "tailwindcss/theme.css" layer(theme); */
 /* @import "tailwindcss/preflight.css" layer(custom-base); */
