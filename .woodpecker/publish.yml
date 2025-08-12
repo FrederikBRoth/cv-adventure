@@ -29,7 +29,7 @@ steps:
     commands:
       - apt-get update
       - apt-get install curl -y
-      - curl webhook.frederikbroth.dk/deploysite?secret=$${WEBHOOK_SECRET}
+      - curl https://webhook.frederikbroth.dk/deploysite?secret=$${WEBHOOK_SECRET}
     environment:
       WEBHOOK_SECRET:
         from_secret: webhook_secret
