@@ -27,8 +27,8 @@ steps:
   send-webhook:
     image: debian
     commands:
+      - apt-get install curl -y
       - curl webhook.frederikbroth.dk/deploysite?secret=$${WEBHOOK_SECRET}
     environment:
       WEBHOOK_SECRET:
         from_secret: webhook_secret
-
