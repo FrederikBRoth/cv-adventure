@@ -7,8 +7,8 @@ use leptos_router::{
 };
 // Modules
 mod components;
+mod helpers;
 mod pages;
-
 // Top-Level pages
 use crate::pages::birthday::Birthday;
 use crate::pages::home::Home;
@@ -23,7 +23,7 @@ pub fn App() -> impl IntoView {
     provide_meta_context();
 
     view! {
-       <ErrorBoundary fallback=|errors| {
+        <ErrorBoundary fallback=|errors| {
             view! {
                 <h1>"Uh oh! Something went wrong!"</h1>
                 <p>"Errors: "</p>
@@ -41,22 +41,22 @@ pub fn App() -> impl IntoView {
             }
         }>
 
-        // sets the document title
-        <Title text="CD pipeline works!!" />
+            // sets the document title
+            <Title text="Portfolio Antics" />
 
-        // injects metadata in the <head> of the page
-        <Meta charset="UTF-8" />
-        <Meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            // injects metadata in the <head> of the page
+            <Meta charset="UTF-8" />
+            <Meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <Router>
-            <Routes fallback=|| "Page not found.">
-                <Route path=StaticSegment("/") view=Home />
-                <Route path=StaticSegment("/birthday") view=Birthday />
-                <Route path=StaticSegment("/video") view=VideoSwitcher />
-                <Route path=StaticSegment("/test") view=Game />
-                <Route path=StaticSegment("/*") view=NotFound />
-            </Routes>
-        </Router>
+            <Router>
+                <Routes fallback=|| "Page not found.">
+                    <Route path=StaticSegment("/") view=Home />
+                    <Route path=StaticSegment("/birthday") view=Birthday />
+                    <Route path=StaticSegment("/video") view=VideoSwitcher />
+                    <Route path=StaticSegment("/test") view=Game />
+                    <Route path=StaticSegment("/*") view=NotFound />
+                </Routes>
+            </Router>
 
         </ErrorBoundary>
     }
