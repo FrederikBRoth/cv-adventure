@@ -16,6 +16,7 @@ console_error_panic_hook = "0.1"
 wasm-bindgen = { version = "0.2", features = ["gg-alloc"] }
 wasm-bindgen-futures = "0.4.42"
 ffmpeg-wasi = "0"
+leptos-use = "0.16.3"
 
 # utils
 # strum = { version = "0.25", features = ["derive", "strum_macros"] }

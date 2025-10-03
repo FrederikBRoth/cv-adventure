@@ -1,10 +1,9 @@
 use crate::components::top_bar_expanding::TopBarExpanding;
-use ev::{DragEvent, SubmitEvent};
+use ev::DragEvent;
 use leptos::prelude::*;
 use leptos::*;
 use leptos::{reactive::spawn_local, wasm_bindgen::JsCast};
 use wasm_bindgen::prelude::*;
-use web_sys::{js_sys, File, FileList, FileReader, HtmlInputElement, Url};
 
 #[wasm_bindgen(module = "/public/ffmpegSetup.js")]
 extern "C" {
@@ -43,14 +42,14 @@ pub fn Birthday() -> impl IntoView {
         ev.prevent_default();
     }
     view! {
-        <div class="w-[100vw] h-[100vh] bg-[url(img/rats.gif)] bg-cover flex justify-center items-center">
+        <div class="flex justify-center items-center bg-cover w-[100vw] h-[100vh] bg-[url(img/rats.gif)]">
             <TopBarExpanding on_submit_form=move |name: String| {
                 on_submit(name, set_videourl, set_loading)
             } />
             // on_submit defined below
             <audio id="audio" src=videourl loop autoplay></audio>
             <Show when=move || { loading() }>
-                <div class="w-2/6 h-2/6 bg-teal-600 opacity-90 rounded flex flex-col justify-center items-center">
+                <div class="flex flex-col justify-center items-center w-2/6 h-2/6 bg-teal-600 rounded opacity-90">
                     <img class="w-3/4 h-3/4 animate-pulse" src="/img/jerma-rat.webp" />
                     "Loading"
                 </div>

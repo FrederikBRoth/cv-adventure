@@ -1,6 +1,5 @@
 use cv_adventure::App;
 use leptos::prelude::*;
-use leptos::*;
 fn main() {
     // set up logging
     _ = console_log::init_with_level(log::Level::Debug);
