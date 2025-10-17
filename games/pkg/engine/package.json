@@ -1,0 +1,15 @@
+{
+  "name": "engine-test",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "engine_test_bg.wasm",
+    "engine_test.js",
+    "engine_test.d.ts"
+  ],
+  "main": "engine_test.js",
+  "types": "engine_test.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
